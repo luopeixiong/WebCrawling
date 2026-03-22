@@ -453,10 +453,10 @@ WebGLRenderingContext.prototype.getExtension = function getExtension(name){
 
 WebGLRenderingContext.prototype.getParameter = function getParameter(pname){
     if(pname == 37445){
-        return ''
+        return 'Google Inc. (AMD)'
     }
     if(pname == 37446){
-        return ''
+        return 'ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)'
     }
     console.log(arguments)
     debugger;
@@ -3174,12 +3174,12 @@ location = {};
 location.__proto__ = Location.prototype;
 
 
-location.href = ''
+location.href = 'https://www.jd.com/?cu=true'
 location.port = ''
-location.hostname = ''
-location.host = ''
+location.hostname = 'www.dianping.com'
+location.host = 'www.jd.com'
 location.protocol = 'https:'
-location.search = 
+location.search = '?response_code=09cb068826d14d66917bd1a0a41c58e7&request_code=ba8d9014004e44128f1d960c4c30c3ea&response_code=c46349190b694388ad771ff254262d88&request_code=dd5e51a4a12e46d9a1010c40d372af20&response_code=416df7e74b4b4b739bcbe8f393869bed&request_code=0d62e806153446369b9e412d8401031b&response_code=606d6001a0fc4a19b20d1818b4f958b3&request_code=ce521020f89d411d869eab084ea4f8fb&response_code=10914cebbc794755b31fb51a5cfdae49&request_code=aab5413a99c244e3ab573733ac6ba889'
 
 //网站自己新定义的方法和属性(可删除)↓↓↓↓↓↓↓↓↓↓
 location.pathname = '';
@@ -3216,10 +3216,10 @@ Navigator.prototype.mimeTypes = catchvm.memory.MimeTypeArray._;
 Navigator.prototype.mediaDevices = catchvm.memory.mediaDevices;
 Navigator.prototype.language = "zh-CN";
 Navigator.prototype.languages = ["zh-CN","en","en-GB","en-US"];
-Navigator.prototype.userAgent = ''
+Navigator.prototype.userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0'
 Navigator.prototype.vendor = 'Google Inc.'
 Navigator.prototype.appName = 'Netscape';
-Navigator.prototype.appVersion = ''
+Navigator.prototype.appVersion = '5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0'
 Navigator.prototype.cookieEnabled = true;
 Navigator.prototype.deviceMemory = 8;
 Navigator.prototype.maxTouchPoints = 0;
